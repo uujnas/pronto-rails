@@ -30,8 +30,8 @@ Layout/LineLength:
 Layout/TrailingEmptyLines:
   Enabled: false
 
-Metrics/BlockLength:
-  IgnoredMethods: ['describe', 'context']
+# Metrics/BlockLength:
+#   IgnoredMethods: ['describe', 'context']
 
 Style/Documentation:
   Enabled: false
@@ -50,7 +50,6 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
   SupportedStyles:
     - single_quotes
-    - double_quotes
 
 Style/StringLiteralsInInterpolation:
   Enabled: false

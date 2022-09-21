@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@master
       - run: |
-          git fetch --no-tags --prune --depth=10 origin +refs/heads/*:refs/remotes/origin/*
+          git fetch 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
