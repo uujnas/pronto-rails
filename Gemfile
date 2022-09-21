@@ -32,11 +32,7 @@ group :development, :test do
 
   # Pronto
   gem 'pronto'
-  gem 'pronto-brakeman', require: false
-  gem 'pronto-fasterer', require: false
   gem 'pronto-flay', require: false
-  gem 'pronto-rails_best_practices', require: false
-  gem 'pronto-reek', require: false
   gem 'pronto-rubocop', require: false
   
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -50,7 +50,6 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
   SupportedStyles:
     - single_quotes
-    - double_quotes
 
 Style/StringLiteralsInInterpolation:
   Enabled: false
