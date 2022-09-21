@@ -16,7 +16,7 @@ jobs:
         with:
            ruby-version: '2.7'
       - name: Setup pronto
-        run: gem install pronto pronto-rubocop
+        run: gem install pronto pronto-rubocop rubocop-performance
       - name: Run Pronto
         env:
           PRONTO_PULL_REQUEST_ID: ${{ github.event.pull_request.number }}
