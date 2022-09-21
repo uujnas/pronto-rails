@@ -16,7 +16,7 @@ jobs:
         with:
            ruby-version: '2.7'
       - name: Setup pronto
-        run: gem install pronto pronto-rubocop
+        run: gem install pronto pronto-rubocop rubocop-performance
       - name: Run Pronto
         run: pronto run -f github_status github_pr -c origin/${{ github.base_ref }}
         env:
