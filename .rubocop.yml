@@ -30,8 +30,8 @@ Layout/LineLength:
 Layout/TrailingEmptyLines:
   Enabled: false
 
-Metrics/BlockLength:
-  IgnoredMethods: ['describe', 'context']
+# Metrics/BlockLength:
+#   IgnoredMethods: ['describe', 'context']
 
 Style/Documentation:
   Enabled: false
